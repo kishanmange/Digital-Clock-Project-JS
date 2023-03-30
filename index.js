@@ -6,7 +6,7 @@
 //     let hours = time.getHours() ;
 //     let min =time.getMinutes();
 //     let sec = time.getSeconds();
-//     if(hours>=12){
+//     if(hours>12){
 //         hours=hours-12;
 //     }
 // let het = document.querySelector(".k2")
@@ -40,7 +40,7 @@ function callme () {
     let min =time.getMinutes();
     let sec = time.getSeconds();
     let k5=document.getElementById("k5")
-    if(hours>12){
+    if(hours>=12){
         k5.innerText= 'PM'
     }
     else{
