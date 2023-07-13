@@ -56,6 +56,7 @@ body{
     /* font-style: oblique; */
     opacity: 0.23;
     box-sizing: border-box;
+    font-weight: 900;
     /* top: 527px;
     width: 70%;
 left: 124px; */
@@ -212,7 +213,9 @@ opacity: 0.23; */
 .d5{
     background-image: url(./morning.png);
     background-repeat: no-repeat;
+
     height: 341px;
+    background-size: cover;
     width: 100%;
     margin-top: 10px;
     background-size: cover;
@@ -275,22 +278,34 @@ span{
     }
     .k5{
         font-size: 15px;
-        height: 35px;
+        
     }
     .d3{
         height: 60px;
+        position: absolute;
+        top: -688px;
     }
     .d1{
-        height: 60px;
+        /* height: 60px;
         width: 60%;
-        left: 71px;
+        left: 71px; */
+        display: none;
     }
     .d2{
-        height: 60px;
+        /* height: 60px;
         width: 70%;
-        left: 53px;
+        left: 53px; */
+        display: none;
     }
     .d5{
         background-size: contain;
+    }
+    .img1{
+        position: absolute;
+        top: -6px;
+    }
+    #k5{
+        font-size: 20PX;
+        height: 53px;
     }
 }
